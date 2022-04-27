@@ -2,7 +2,6 @@
     border: 3px solid rgba(57,129,169,1);
     border-radius: 10px;
     width: 100%;
-    
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
@@ -24,7 +23,6 @@
   #todoList > li {
     display: flex;
     align-items: center;
-  
     padding: 10px 5px;
     margin: 0px;
     list-style: none;
@@ -44,8 +42,7 @@
   
   #todoList > li > input[type=text] {
     flex: 10;
-    margin: 5px 10px;
-    
+    margin: 5px 10px;    
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
   }
@@ -65,17 +62,14 @@
   }
   
   .addTodo > input[type=text] {
-    flex: 11;
-  
+    flex: 11; 
     border: none;
     padding: 5px 1px;
     margin: 0px;
     font-size: 1em;
     width: 80%;
     border-bottom: 2px solid rgb(162, 166, 173);
-  
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
     transition: border linear 0.5s;
   }
   
